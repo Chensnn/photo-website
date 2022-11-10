@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans TC", sans-serif;
+    list-style: none;
+}
+$textColor: #403f3d;
+
+body {
+    height: 100%;
+    a {
+        text-decoration: none;
+        color: $textColor;
+    }
+    .morePicture {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 1rem;
+        button {
+            background-color: rgba($color: #97a6a0, $alpha: 1);
+            box-shadow: 5px 5px #403f3d;
+            font-size: 1.5rem;
+            cursor: pointer;
+            color: #fcfcfc;
+            border: none;
+            border-radius: 5px;
+            padding: 0.5rem 1rem;
+            width: 30%;
+            margin: 2rem 0rem;
+        }
+    }
+    .about {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@import "./nav";
+@import "./search"; // 在主CSS裡import其它component的css
+@import "./footer";
+@import "./picture";

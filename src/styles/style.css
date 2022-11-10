@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans TC", sans-serif;
+  list-style: none;
+}
+
+body {
+  height: 100%;
+}
+body a {
+  text-decoration: none;
+  color: #403f3d;
+}
+body .morePicture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+body .morePicture button {
+  background-color: #97a6a0;
+  box-shadow: 5px 5px #403f3d;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #fcfcfc;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  width: 30%;
+  margin: 2rem 0rem;
+}
+body .about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  background-color: #2d3e40;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  margin-right: 1rem;
+}
+nav ul li {
+  padding: 0.8rem 1rem;
+  transition: all 0.5s;
+}
+nav ul li:hover {
+  background-color: antiquewhite;
+}
+nav ul li:hover a {
+  border-bottom: 2px solid #403f3d;
+  color: #403f3d;
+}
+nav ul li a {
+  font-size: 1.5rem;
+  letter-spacing: 0.3rem;
+  color: #fcfcfc;
+}
+
+.search {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 0rem;
+}
+.search input,
+.search button {
+  font-size: 1.3rem;
+  padding: 0.7rem;
+  border: 2px solid #403f3d;
+  border-radius: 5px;
+}
+.search button {
+  background-color: #97a6a0;
+  cursor: pointer;
+  font-weight: 700;
+  color: #fcfcfc;
+  margin-left: 0.5rem;
+  border-color: #97a6a0;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+  background-color: #2d3e40;
+  color: #fcfcfc;
+  letter-spacing: 0.2rem;
+  padding: 0.5rem 0rem;
+}
+
+.pictures {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.pictures .picture {
+  padding: 1rem;
+  width: 400px;
+  text-align: center;
+}
+.pictures .picture p {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin: 1rem;
+}
+.pictures .picture p a {
+  background-color: #93bfb7;
+  padding: 0.3rem 0.7rem;
+  border-radius: 5px;
+}
+.pictures .picture .imageContainer {
+  overflow: hidden;
+  height: 40vh;
+}
+.pictures .picture .imageContainer img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: all 0.3s ease;
+}
+.pictures .picture .imageContainer img:hover {
+  transform: scale(1.25);
+}/*# sourceMappingURL=style.css.map */

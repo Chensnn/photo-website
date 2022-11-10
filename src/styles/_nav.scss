@@ -1,0 +1,27 @@
+nav {
+    background-color: rgba($color: #2d3e40, $alpha: 1);
+
+    ul {
+        display: flex;
+        justify-content: center;
+        margin-right: 1rem;
+
+        li {
+            padding: 0.8rem 1rem;
+            transition: all 0.5s;
+            &:hover {
+                background-color: antiquewhite;
+                a {
+                    border-bottom: 2px solid #403f3d;
+                    color: #403f3d;
+                }
+            }
+
+            a {
+                font-size: 1.5rem;
+                letter-spacing: 0.3rem;
+                color: #fcfcfc;
+            }
+        }
+    }
+}
